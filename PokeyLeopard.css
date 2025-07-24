@@ -611,11 +611,12 @@ content: url('https://i.ibb.co/S4sNDJZz/Pokey-Overview-1.png')!important;
 }
 
 img[src$="caveunused.jpg"] {
-content: url('XXXXXXXXXXX') !important;
+content: url("https://i.ibb.co/ZRpN4021/Pokeycaves-1.png") !important;
 }
 
 img[src$="cavedefault.png"] {
-content: url('https://i.ibb.co/ZRpN4021/Pokeycaves-1.png'); }
+content: url("https://i.ibb.co/ZRpN4021/Pokeycaves-1.png") !important; 
+}
 
 .mound-grid img /* Mound(s) */ {
 	background: url("https://i.ibb.co/SXrjMWtY/Pokey-Mounds-1.png");
