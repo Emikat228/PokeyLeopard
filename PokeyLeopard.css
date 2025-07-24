@@ -7,14 +7,14 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('XXXXXXXXXXXXXXXXXXXX');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
 /* BACKGROUND */
 
 body {
-	background: url('XXXXXXXXXXX') center center fixed;
+	background: url('https://i.ibb.co/Wpv4CP4y/Pokey-Background.webp') center center fixed;
 	background-size: 100%;
-	font-family:  'XXXXXXXXXXX';
+	font-family: "Marcellus", serif;
 	color: #000000
 }
 
@@ -22,7 +22,7 @@ body {
 
 /* RIGHT SIDE */
 .container.main {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(1, 13, 38, 0.5);
 	border: 0 ridge !important;
 	box-shadow: none;
 	border-radius: 10px !important;
@@ -37,41 +37,41 @@ body {
 /* TOPBAR ("Welcome back, ___") */
 
 .topbar {
-	background: #XXXXXXXXXXX;
+	background: #011140;
 	border: 0 ridge !important;
 	border-top: none;
-	color: #d7e9ff;
+	color: #587AA6;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR (Den/Crossroads/Etc.) */
 
 .navbar {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(1, 17, 64, 0.5);
 	border-bottom: none;
-	color: #XXXXXXXXXXX;
+	color: #587AA6;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #XXXXXXXXXXX !important
+	color: #587AA6 !important
 }
 
 /* NAVBAR BUTTON HOVER */
 
 .navbar li a:hover {
-	background: #XXXXXXXXXXX !important;
+	background: rgba(14, 47, 115, 0.5) !important;
 	border-bottom: none;
-	color: #XXXXXXXXXXX !important;
+	color: #587AA6 !important;
 	border-radius: 10px !important;
 }
 
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #XXXXXXXXXXX
+	color: #587AA6
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #XXXXXXXXXXX;
+        color: #587AA6;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -113,20 +113,20 @@ body {
 /* BOOKMARK BUTTON */
 
 input.floatright, input.floatright:hover {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #XXXXXXXXXXX !important;    
+	color: #587AA6 !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
 
 button.button, button.button:hover {
-	background: rgba(2, 40, 89, 0.95);
+	background: rgba(1, 17, 64, 0.5);
         border: 0 ridge !important;
 	border-radius: 10px !important;
         text-shadow: none !important;
-	color: #XXXXXXXXXXX !important
+	color: #587AA6 !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -134,26 +134,26 @@ button.button, button.button:hover {
 .alert,
 .alert-warning,
 .alert-danger {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
 	border: 0 ridge !important;
-	color: #XXXXXXXXXXX;
+	color: #587AA6;
 	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #XXXXXXXXXXX;
+	color: #587AA6;
 	font-size: 90px;
 	text-align: center;
-        font-family:  'XXXXXXXXXXX'
+        font-family: "Marcellus", serif;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #XXXXXXXXXXX;
+	color: rgba(1, 17, 64, 0.5);
 	font-size: 24px;
 	text-align: center
 }
@@ -162,21 +162,21 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #XXXXXXXXXXX !important;
+	color: rgba(1, 17, 64, 0.5) !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #XXXXXXXXXXX !important;
+	color: rgba(1, 17, 64, 0.5) !important;
         font-size: 26px !important;
-        font-family: 'Knewave'
+        font-family: "Marcellus", serif;
 }
 
 /* RIGHT SIDE PANELS */
 .panel {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
 	box-shadow: none !important;
 	border: 0 ridge !important;
 	color: #XXXXXXXXXXX !important;
@@ -185,45 +185,45 @@ h3 {
 
 /* ENERGY BAR BACKGROUND */
 .progress {
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX !important;
+	background: #011140;
+	color: #587AA6 !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
-	background: #XXXXXXXXXXX;
-	color: #XXXXXXXXXXX !important;
+	background: #0E2F73;
+	color: #587AA6 !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #XXXXXXXXXXX !important
+	color: #587AA6 !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: rgba(1, 17, 64, 0.5) !important;
+        color: #587AA6 !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: rgba(14, 47, 115, 0.5) !important;
+        color: #587AA6 !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: rgba(1, 13, 38, 0.5) !important;
+        color: #587AA6 !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #XXXXXXXXXXX !important;
+	color: #587AA6 !important;
 }
 
 div#chatMessageContainer {
@@ -232,8 +232,8 @@ div#chatMessageContainer {
 }
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX !important;
+	background: rgba(1, 17, 64, 0.5) !important;
+        color: #587AA6 !important;
 	border: 0 ridge !important;
 }
 
@@ -242,8 +242,8 @@ button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 /*Comment Box by Hok-Z #41458 / #170947*/
 /*-------------------------*/
 #commentBox {
-background: rgba(XXXXXXXXXXX);
-border: 2px #XXXXXXXXXXX !important;
+background: rgba(1, 13, 38, 0.5);
+border: 2px #587AA6 !important;
 height: 280px !important;
 margin-top: 40px;
 overflow: auto !important;
@@ -252,33 +252,33 @@ border-top-right-radius: 0px !important;
 }
 
 .comment {
-background: rgba(XXXXXXXXXXX) !important;
-border-bottom: 1px #XXXXXXXXXXX;
+background: rgba(1, 17, 64, 0.5) !important;
+border-bottom: 1px #010D26;
 font-weight: bold;
-color: #XXXXXXXXXXX;
+color: #587AA6;
 }
 
-.comment a {color: #XXXXXXXXXXX;}
+.comment a {color: #587AA6;}
 
-.comment .text-muted {color: #XXXXXXXXXXX;}
+.comment .text-muted {color: #587AA6;}
 
 #makeComment {
-background: #XXXXXXXXXXX !important;
-border: 2px #XXXXXXXXXXX;
+background: rgba(1, 17, 64, 0.5) !important;
+border: 2px #010D26;
 border-radius: 10px;
 }
 
 #comment {
-background: rgba(XXXXXXXXXXX) !important;
-color: #XXXXXXXXXXX !important;
+background: rgba(1, 17, 64, 0.5) !important;
+color: #587AA6 !important;
 }
 
 input[type="button"].bad {
-background: #XXXXXXXXXXX !important;
+background: #0E2F73 !important;
 }
 
 input#postComment {
-background: #XXXXXXXXXXX !important;
+background: #587AA6 !important;
 color: black;
 }
 
@@ -289,7 +289,7 @@ color: black;
 /* PANEL BACKGROUND COLOR */
 
 .table {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(1, 13, 38, 0.5);
 	border: 0 ridge !important;
 	border-collapse: separate;
 	border-radius: 10px !important;
@@ -301,8 +301,8 @@ color: black;
 .top,
 .bottom,
 th {
-	background: #XXXXXXXXXXX !important;
-	color: #XXXXXXXXXXX !important;
+	background: rgba(1, 17, 64, 0.5) !important;
+	color: #587AA6 !important;
 	border-radius: 10px !important;
 }
 
@@ -313,8 +313,8 @@ td.bottom a {
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 
 .inner-table .left {
-	background: rgba(XXXXXXXXXXX) !important;
-        color: #XXXXXXXXXXX;
+	background: rgba(14, 47, 115, 0.5) !important;
+        color: #587AA6;
 	border-radius: 10px !important;
 }
 
@@ -322,7 +322,7 @@ td.bottom a {
 /* Color behind the number of all of the things above */
 
 .inner-table .right {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
 	border-radius: 10px !important;
 }
 
@@ -339,7 +339,7 @@ td.right {
 
 .cave-grid,
 .mound-grid {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -347,9 +347,9 @@ td.right {
 /* FEED ALL, PLAY ALL */
 
 .feature {
-	background: rgba(XXXXXXXXXXX) !important;
-	color: #XXXXXXXXXXX !important;
-	border: 1px solid #XXXXXXXXXXX !important;
+	background: rgba(1, 17, 64, 0.5) !important;
+	color: #587AA6 !important;
+	border: 1px solid #587AA6 !important;
 	border-radius: 10px !important;
 }
 
@@ -357,7 +357,7 @@ td.right {
 
 .feature,
 div.left {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(1, 17, 64, 0.5);
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -365,7 +365,7 @@ div.left {
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 
 .table .left {
-	background: rgba(XXXXXXXXXXX);
+	background: rgba(1, 17, 64, 0.5);
         border-radius: 10px !important;
 }
 
@@ -374,7 +374,7 @@ div.left {
 input,
 select,
 textarea {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 13, 38, 0.5) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 	color: #XXXXXXXXXXX !important;
@@ -385,13 +385,13 @@ textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(XXXXXXXXXXX) !important;
-	color: #XXXXXXXXXXX  !important;
+	background: rgba(1, 13, 38, 0.5) !important;
+	color: #587AA6  !important;
 	border-radius: 10px !important;
 }
 
 .item {
-	background: rgba(XXXXXXXXXXX) !important;
+	background: rgba(1, 17, 64, 0.5) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
 }
@@ -399,17 +399,17 @@ textarea {
 /* ACCOUNT OPTIONS ON/OFF TOGGLE SWITCH */
 
 div.slider.round /* Background */ {
-	background: #XXXXXXXXXXX !important
+	background: #0E2F73 !important
 }
 
 div.slider.round::before /* Circle Part */ {
-	background: #XXXXXXXXXXX !important
+	background: #587AA6 !important
 }
 
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #000000 !important;
+        color: #587AA6 !important;
         text-shadow: none !important
 }
 
@@ -417,13 +417,13 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #XXXXXXXXXXX !important
+	color: #587AA6 !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #XXXXXXXXXXX !important
+	color: #FFFFFF !important
 }
 
 
@@ -441,8 +441,8 @@ a:hover {
 
 .smallbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(1, 13, 38, 0.5);
+	color: #587AA6;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -454,8 +454,8 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(1, 13, 38, 0.5);
+	color: #587AA6;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -467,8 +467,8 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(1, 17, 64, 0.5);
+	color: #587AA6;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -482,8 +482,8 @@ a:hover {
 
 .smallhoverbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(1, 17, 64, 0.5);
+	color: #587AA6;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -501,8 +501,8 @@ a:hover {
 
 .mediumhoverbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(1, 17, 64, 0.5);
+	color: #587AA6;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -520,8 +520,8 @@ a:hover {
 
 .largehoverbox {
 	float: left;
-	background: rgba(XXXXXXXXXXX);
-	color: #XXXXXXXXXXX;
+	background: rgba(1, 17, 64, 0.5);
+	color: #587AA6;
 	padding: 10px;
 	border: none;
 	border-radius: 0px;
@@ -549,14 +549,14 @@ a:hover {
 /* BACKGROUND */
 
 ::-webkit-scrollbar-track {
-	background: #XXXXXXXXXXX
+	background: #587AA6
 }
 
 
 /* "THUMB" */
 
 ::-webkit-scrollbar-thumb {
-	background: #XXXXXXXXXXX;
+	background: #010D26;
 	border-radius: 0px
 }
 
@@ -595,24 +595,19 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* CAVE / MOUND IMAGES */
 
-div.cave-grid>img /* Pregnant Lionesses */ {
-	content: url('XXXXXXXXXXX') !important
+/*Unsorted Lions*/
+img[src$="unsortedlionsbanner.png"] {
+content: url('https://i.ibb.co/ymq5ZNBK/Pokey-Unsorted-2.png')!important;
 }
 
-a[href$="XXXXXXXXXXX"]>div.cave-grid>img {
-	content: url('XXXXXXXXXXX') !important
+/*Nesting*/
+img[src$="nestingbanner.png"] {
+content: url('https://i.ibb.co/jkWwcSKx/Pokey-Preg-1.png')!important;
 }
 
-a[href$="XXXXXXXXXXX"]>div.cave-grid>img {
-	content: url('XXXXXXXXXXX') !important
-}
-
-a[href$="lionoverview.php?id=XXXXXXXXXXX"]>div.cave-grid>img /* Pride Overview */ {
-	content: url('XXXXXXXXXXX') !important
-}
-
-a[href$="unsorted.php?id=XXXXXXXXXXX"]>div.cave-grid>img /* Unsorted */ {
-	content: url('XXXXXXXXXXX') !important
+/*Overview*/
+img[src$="overviewbanner.png"] {
+content: url('https://i.ibb.co/S4sNDJZz/Pokey-Overview-1.png')!important;
 }
 
 img[src$="caveunused.jpg"] {
@@ -620,10 +615,10 @@ content: url('XXXXXXXXXXX') !important;
 }
 
 img[src$="default.png"] {
-content: url('XXXXXXXXXXX'); }
+content: url('https://i.ibb.co/ZRpN4021/Pokeycaves-1.png'); }
 
 .mound-grid img /* Mound(s) */ {
-	background: url("XXXXXXXXXXX");
+	background: url("https://i.ibb.co/SXrjMWtY/Pokey-Mounds-1.png");
 	width: 0;
 	height: 0;
 	padding-top: 80px;
@@ -648,11 +643,11 @@ content: url('XXXXXXXXXXX'); }
 		}
 	}
 img[src$="icon-beetle-gold.png"] {
-content: url("XXXXXXXXXXX") !important;
+content: url("https://static.lioden.com/images/items/Other/meteoriteshard.png") !important;
 width: 20px !important;
 }
 
 img[src$="icon-beetle-silver.png"] {
-content: url("XXXXXXXXXXX") !important;
+content: url("https://static.lioden.com/images/layout/icon_axion.png") !important;
 width: 20px !important;
 }
