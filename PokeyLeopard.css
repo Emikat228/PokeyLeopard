@@ -153,7 +153,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: rgba(1, 17, 64, 0.5);
+	color: #587AA6;
 	font-size: 24px;
 	text-align: center
 }
@@ -169,7 +169,7 @@ h3 {
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: rgba(1, 17, 64, 0.5) !important;
+	color: #587AA6 !important;
         font-size: 26px !important;
         font-family: "Marcellus", serif;
 }
@@ -614,7 +614,7 @@ img[src$="caveunused.jpg"] {
 content: url('XXXXXXXXXXX') !important;
 }
 
-img[src$="default.png"] {
+img[src$="cavedefault.png"] {
 content: url('https://i.ibb.co/ZRpN4021/Pokeycaves-1.png'); }
 
 .mound-grid img /* Mound(s) */ {
@@ -651,3 +651,5 @@ img[src$="icon-beetle-silver.png"] {
 content: url("https://static.lioden.com/images/layout/icon_axion.png") !important;
 width: 20px !important;
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/games/gam-10/gam929.ani), url(https://cur.cursors-4u.net/games/gam-10/gam929.png), auto !important;} /* End https://www.cursors-4u.com */
