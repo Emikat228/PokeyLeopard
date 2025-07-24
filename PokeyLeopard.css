@@ -585,8 +585,8 @@ div#lion_image {
 #lion_image:after {
 content:url("https://i.ibb.co/B57GZqqN/Pokey-Border-ezgif-com-resize-1.gif");
 position:absolute;
-    left: -3px;
-    top: -3px;
+    left: 1px;
+    top: 5px;
 }
 
 table#player img {
