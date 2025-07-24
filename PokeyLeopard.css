@@ -581,6 +581,14 @@ div#lion_image {
 	margin-left: 12px /* May need adjusting */
 }
 
+/*code by hok-z #170947*/
+#lion_image:after {
+content:url("https://i.ibb.co/B57GZqqN/Pokey-Border-ezgif-com-resize-1.gif");
+position:absolute;
+    left: 1px;
+    top: 1px;
+}
+
 table#player img {
 	border-radius: 50% !important;
 	overflow: hidden
@@ -653,4 +661,4 @@ content: url("https://static.lioden.com/images/layout/icon_axion.png") !importan
 width: 20px !important;
 }
 
-/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/games/gam-10/gam929.ani), url(https://cur.cursors-4u.net/games/gam-10/gam929.png), auto !important;} /* End https://www.cursors-4u.com */
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-5/sym430.cur), auto !important;} /* End https://www.cursors-4u.com */
