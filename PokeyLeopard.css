@@ -7,15 +7,15 @@ Please do NOT remove this credit, unless your coding becomes unrecognizable from
 
 /* FONT (From Google Fonts) */
 
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
 
 /* BACKGROUND */
 
 body {
 	background: url('https://i.ibb.co/Wpv4CP4y/Pokey-Background.webp') center center fixed;
 	background-size: 100%;
-	font-family: "Marcellus", serif;
-	color: #000000
+	font-family: "Petit Formal Script", cursive;
+	color: #FFFFFF
 }
 
 /* MAIN PANEL */
@@ -40,7 +40,7 @@ body {
 	background: #011140;
 	border: 0 ridge !important;
 	border-top: none;
-	color: #587AA6;
+	color: #FFFFFF;
 	border-radius: 10px !important;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: rgba(1, 17, 64, 0.5);
 	border-bottom: none;
-	color: #587AA6;
+	color: #FFFFFF;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #587AA6 !important
+	color: #FFFFFF !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #587AA6
+	color: #FFFFFF
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #587AA6;
+        color: #FFFFFF;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -116,7 +116,7 @@ input.floatright, input.floatright:hover {
 	background: rgba(1, 17, 64, 0.5) !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #587AA6 !important;    
+	color: #FFFFFF !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
@@ -126,7 +126,7 @@ button.button, button.button:hover {
         border: 0 ridge !important;
 	border-radius: 10px !important;
         text-shadow: none !important;
-	color: #587AA6 !important
+	color: #FFFFFF !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -136,24 +136,24 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(1, 17, 64, 0.5) !important;
 	border: 0 ridge !important;
-	color: #587AA6;
+	color: #FFFFFF;
 	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #587AA6;
+	color: #FFFFFF;
 	font-size: 90px;
 	text-align: center;
-        font-family: "Marcellus", serif;
+        font-family: "Petit Formal Script", cursive;
 }
 
 
 /* MEDIUM HEADER */
 
 h2 {
-	color: #587AA6;
+	color: #FFFFFF;
 	font-size: 24px;
 	text-align: center
 }
@@ -162,7 +162,7 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 	font-size: 14px !important
 }
 
@@ -186,44 +186,44 @@ h3 {
 /* ENERGY BAR BACKGROUND */
 .progress {
 	background: #011140;
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR COLOR */
 .progress-bar {
 	background: #0E2F73;
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 	border-radius: 10px !important;
 }
 
 /* ENERGY BAR TEXT */
 .progress div {
-	color: #587AA6 !important
+	color: #FFFFFF !important
 }
 
 /* CHAT */
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: rgba(1, 17, 64, 0.5) !important;
-        color: #587AA6 !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: rgba(14, 47, 115, 0.5) !important;
-        color: #587AA6 !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: rgba(1, 13, 38, 0.5) !important;
-        color: #587AA6 !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message_timestamp /* Timestamps */ {
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 }
 
 div#chatMessageContainer {
@@ -233,7 +233,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: rgba(1, 17, 64, 0.5) !important;
-        color: #587AA6 !important;
+        color: #FFFFFF !important;
 	border: 0 ridge !important;
 }
 
@@ -255,12 +255,12 @@ border-top-right-radius: 0px !important;
 background: rgba(1, 17, 64, 0.5) !important;
 border-bottom: 1px #010D26;
 font-weight: bold;
-color: #587AA6;
+color: #FFFFFF;
 }
 
-.comment a {color: #587AA6;}
+.comment a {color: #FFFFFF;}
 
-.comment .text-muted {color: #587AA6;}
+.comment .text-muted {color: #FFFFFF;}
 
 #makeComment {
 background: rgba(1, 17, 64, 0.5) !important;
@@ -270,15 +270,15 @@ border-radius: 10px;
 
 #comment {
 background: rgba(1, 17, 64, 0.5) !important;
-color: #587AA6 !important;
+color: #FFFFFF !important;
 }
 
 input[type="button"].bad {
-background: #0E2F73 !important;
+background: #FFFFFF !important;
 }
 
 input#postComment {
-background: #587AA6 !important;
+background: #FFFFFF !important;
 color: black;
 }
 
@@ -302,7 +302,7 @@ color: black;
 .bottom,
 th {
 	background: rgba(1, 17, 64, 0.5) !important;
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 	border-radius: 10px !important;
 }
 
@@ -314,7 +314,7 @@ td.bottom a {
 
 .inner-table .left {
 	background: rgba(14, 47, 115, 0.5) !important;
-        color: #587AA6;
+        color: #FFFFFF;
 	border-radius: 10px !important;
 }
 
@@ -348,7 +348,7 @@ td.right {
 
 .feature {
 	background: rgba(1, 17, 64, 0.5) !important;
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 	border: 1px solid #587AA6 !important;
 	border-radius: 10px !important;
 }
@@ -377,7 +377,7 @@ textarea {
 	background: rgba(1, 13, 38, 0.5) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #587AA6 !important;
+	color: #FFFFFF !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -386,7 +386,7 @@ textarea {
 
 .item-header {
 	background: rgba(1, 13, 38, 0.5) !important;
-	color: #587AA6  !important;
+	color: #FFFFFF  !important;
 	border-radius: 10px !important;
 }
 
@@ -409,7 +409,7 @@ div.slider.round::before /* Circle Part */ {
 /* Copyright, Terms of Service, CoC, etc. */
 
 div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.container.footer.center.white.visible-lg.visible-md.visible-sm a {
-        color: #587AA6 !important;
+        color: #FFFFFF !important;
         text-shadow: none !important
 }
 
@@ -417,13 +417,13 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #587AA6 !important
+	color: #FFFFFF !important
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #FFFFFF !important
+	color: #587AA6 !important
 }
 
 
@@ -579,14 +579,6 @@ div#lion_image {
 	overflow: hidden;
 	margin-top: 15px; /* May need adjusting */
 	margin-left: 12px /* May need adjusting */
-}
-
-/*code by hok-z #170947*/
-#lion_image:after {
-content:url("https://i.ibb.co/B57GZqqN/Pokey-Border-ezgif-com-resize-1.gif");
-position:absolute;
-    left: 1px;
-    top: 5px;
 }
 
 table#player img {
