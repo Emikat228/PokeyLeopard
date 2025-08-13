@@ -15,7 +15,7 @@ body {
 	background: url('https://i.ibb.co/HLTD0XcS/swirlingsky-optimized.png') center center fixed;
 	background-size: 100%;
 	font-family: "Petit Formal Script", cursive;
-	color: #BFD7F8
+	color: #E8F1FC
 }
 
 /* MAIN PANEL */
@@ -40,7 +40,7 @@ body {
 	background: #102537;
 	border: 0 ridge !important;
 	border-top: none;
-	color: #87B3F2;
+	color: #E8F1FC;
 	border-radius: 10px !important;
 }
 
@@ -49,14 +49,14 @@ body {
 .navbar {
 	background: #102537;
 	border-bottom: none;
-	color: #87B3F2;
+	color: #E8F1FC;
 	border-radius: 10px !important;
 }
 
 /* NAVBAR BUTTON TEXT COLOR */
 
 .navbar li a {
-	color: #2A5E8C !important
+	color: #E8F1FC !important
 }
 
 /* NAVBAR BUTTON HOVER */
@@ -64,7 +64,7 @@ body {
 .navbar li a:hover {
 	background: #306CA1 !important;
 	border-bottom: none;
-	color: #BFD7F8 !important;
+	color: #E8F1FC !important;
 	border-radius: 10px !important;
 }
 
@@ -79,14 +79,14 @@ body {
 /* BREADCRUMB TEXT */
 
 .breadcrumb .active {
-	color: #87B3F2
+	color: #E8F1FC
 }
 
 /* CSS CREDIT */
 
 .breadcrumb::after {
         content: "Template by Katie (#106445)";
-        color: #87B3F2;
+        color: #E8F1FC;
         position: absolute;
         right: 13%; /* (This may need adjusting) */
         z-index: 100
@@ -116,7 +116,7 @@ input.floatright, input.floatright:hover {
 	background: #4E67A1 !important;
         border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #87B3F2 !important;    
+	color: #E8F1FC !important;    
 }
 
 /* SWITCH ACCOUNT BUTTON */
@@ -126,7 +126,7 @@ button.button, button.button:hover {
         border: 0 ridge !important;
 	border-radius: 10px !important;
         text-shadow: none !important;
-	color: #87B3F2 !important
+	color: #E8F1FC !important
 }
 
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
@@ -136,14 +136,14 @@ button.button, button.button:hover {
 .alert-danger {
 	background: rgba(48, 108, 161, 0.65) !important;
 	border: 0 ridge !important;
-	color: #BFD7F8;
+	color: #E8F1FC;
 	border-radius: 10px !important;
 }
 
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #87B3F2;
+	color: #E8F1FC;
     text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.75);
 	font-size: 50px;
 	text-align: center;
@@ -154,7 +154,7 @@ h1 {
 /* MEDIUM HEADER */
 
 h2 {
-	color: #87B3F2;
+	color: #E8F1FC;
 	font-size: 24px;
 	text-align: center
 }
@@ -163,14 +163,14 @@ h2 {
 /* SMALL HEADER */
 
 h3 {
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
 	font-size: 14px !important
 }
 
 /* RIGHT SIDE PANEL HEADER */
 
 .sidebar h3 {
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
         font-size: 26px !important;
         font-family: "Petit Formal Script", cursive;
 }
@@ -180,7 +180,7 @@ h3 {
 	background: rgba(48, 108, 161, 0.75) !important;
 	box-shadow: none !important;
 	border: 0 ridge !important;
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
 	border-radius: 10px !important;
 }
 
@@ -207,19 +207,19 @@ h3 {
 
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
 	background: #8E99D2 !important;
-        color: #4389EA !important;
+        color: #E8F1FC !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
 	background: #4E67A1 !important;
-        color: #4389EA !important;
+        color: #E8F1FC !important;
 	border: 0 ridge !important;
 }
 
 .s-chat-message__pinned /* Pinned Message */ {
 	background: #3C4B96 !important;
-        color: #155BBC !important;
+        color: #E8F1FC !important;
 	border: 0 ridge !important;
 }
 
@@ -234,7 +234,7 @@ div#chatMessageContainer {
 
 button#label_currentChannel /* Channel Button ie. Main, Sales */ {
 	background: #4E67A1 !important;
-        color: #87B3F2 !important;
+        color: #E8F1FC !important;
 	border: 0 ridge !important;
 }
 
@@ -259,9 +259,9 @@ font-weight: bold;
 color: #87B3F2;
 }
 
-.comment a {color: #87B3F2;}
+.comment a {color: #E8F1FC;}
 
-.comment .text-muted {color: #87B3F2;}
+.comment .text-muted {color: #E8F1FC;}
 
 #makeComment {
 background: #102537  !important;
@@ -271,7 +271,7 @@ border-radius: 10px;
 
 #comment {
 background: #1B3D5A !important;
-color: #87B3F2 !important;
+color: #E8F1FC !important;
 }
 
 input[type="button"].bad {
@@ -280,7 +280,7 @@ background: #87B3F2 !important;
 
 input#postComment {
 background: #4E67A1 !important;
-color: #87B3F2;
+color: #E8F1FC;
 }
 
 
@@ -303,7 +303,7 @@ color: #87B3F2;
 .bottom,
 th {
 	background: #102537 !important;
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
 	border-radius: 10px !important;
 }
 
@@ -315,7 +315,7 @@ td.bottom a {
 
 .inner-table .left {
 	background: rgba(16, 37, 55, 0.6) !important;
-        color: #87B3F2;
+        color: #E8F1FC;
 	border-radius: 10px !important;
 }
 
@@ -349,7 +349,7 @@ td.right {
 
 .feature {
 	background: rgba(16, 37, 55, 0.8) !important;
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
 	border: 1px solid #87B3F2 !important;
 	border-radius: 10px !important;
 }
@@ -378,7 +378,7 @@ textarea {
 	background: rgba(142, 153, 210, 0.7) !important;
 	border: 0 ridge !important;
 	border-radius: 10px !important;
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
 	box-shadow: none !important;
 	text-shadow: none !important
 }
@@ -387,7 +387,7 @@ textarea {
 
 .item-header {
 	background: rgba(27, 61, 90, 0.5) !important;
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
 	border-radius: 10px !important;
 }
 
@@ -418,14 +418,14 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 
 a:link,
 a:visited {
-	color: #87B3F2 !important;
+	color: #E8F1FC !important;
     text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.45);
 }
 
 /* LINK HOVER COLOR */
 
 a:hover {
-	color: #BFD7F8 !important;
+	color: #87B3F2 !important;
     text-shadow: 1px 0px 10px rgba(255, 255, 255, 0.50);
 }
 
